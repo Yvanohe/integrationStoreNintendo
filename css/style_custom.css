@@ -4,9 +4,11 @@
 
 .btn-MenuCarousel:hover {
     border-top: solid #E60012;
+    font-weight: bold;
 }
 
-.custom-hover:hover {
+.custom-hover:hover,
+.card:hover {
 
     box-shadow:
         0px 0px 20px rgba(0, 0, 0, 0.23);
@@ -33,3 +35,7 @@
     }
 
 }
+
+/* #playersSwitch {
+    position: relative;
+} */

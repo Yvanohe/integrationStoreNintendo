@@ -13,7 +13,7 @@
     <title>integration store nintendo.fr</title>
 </head>
 
-<body>
+<body class="bg-light">
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg bg-primary py-2">
             <div class="container">
@@ -119,7 +119,9 @@
             </div>
         </nav>
     </header>
+
     <main class="bg-light">
+        <!-- SECTION 1 -->
         <section>
             <div class="container  pt-3 pt-lg-0 ">
                 <div class="row  ">
@@ -147,51 +149,62 @@
             </div>
 
         </section>
-        <div class="container py-5 ">
 
-            <div class="row w-100 justify-content-center">
-                <div
-                    class=" p-0 col-12 col-lg-9 col-xl-8 col-xxl-7 rounded-4 custom-hover  d-flex justify-content-center  ">
-                    <div class="p-3 w-100 border border-end-0  rounded-start-4 d-flex flex-column justify-content-center
+        <!-- SECTION-2 MENU INTERMEDIAIRE -->
+        <section>
+            <div class="container py-5 ">
+
+                <div class="row w-100 justify-content-center">
+                    <div
+                        class=" p-0 col-12 col-lg-9 col-xl-8 col-xxl-7 rounded-4 custom-hover  d-flex justify-content-center  ">
+                        <div class="p-3 w-100 border border-end-0  rounded-start-4 d-flex flex-column justify-content-center
                     align-items-center bg-white ">
 
-                        <a href="" class=" text-decoration-none text-dark "><i class="bi bi-nintendo-switch "></i></a>
-                        <p class="m-0">CONSOLES </p>
+                            <a href="" class=" text-decoration-none text-dark "><i
+                                    class="bi bi-nintendo-switch "></i></a>
+                            <p class="m-0">CONSOLES </p>
+
+                        </div>
+                        <div
+                            class=" p-2 w-100 border border-end-0  d-flex flex-column justify-content-center align-items-center bg-white ">
+                            <a href="" class="text-decoration-none text-dark"><i
+                                    class="fa-solid fa-table-cells-large"></i></a>
+                            <p class="m-0">JEUX</p>
+                        </div>
+                        <div
+                            class=" p-2 w-100 border  border-end-0  d-flex flex-column justify-content-center align-items-center bg-white ">
+                            <a href="" class="text-decoration-none text-dark"><i class="fa-solid fa-shirt"></i></a>
+                            <p class="m-0 text-center">PRODUITS DÉRIVÉS</p>
+                        </div>
+                        <div
+                            class="p-2 w-100 border rounded-end-4  d-flex flex-column justify-content-center align-items-center bg-white ">
+                            <a href="" class="text-decoration-none text-dark"><i class="fa-solid fa-bomb"></i></a>
+                            <p class="m-0">EXCLUSIVITÉS</p>
+                        </div>
 
                     </div>
-                    <div
-                        class=" p-2 w-100 border border-end-0  d-flex flex-column justify-content-center align-items-center bg-white ">
-                        <a href="" class="text-decoration-none text-dark"><i
-                                class="fa-solid fa-table-cells-large"></i></a>
-                        <p class="m-0">JEUX</p>
-                    </div>
-                    <div
-                        class=" p-2 w-100 border  border-end-0  d-flex flex-column justify-content-center align-items-center bg-white ">
-                        <a href="" class="text-decoration-none text-dark"><i class="fa-solid fa-shirt"></i></a>
-                        <p class="m-0 text-center">PRODUITS DÉRIVÉS</p>
-                    </div>
-                    <div
-                        class="p-2 w-100 border rounded-end-4  d-flex flex-column justify-content-center align-items-center bg-white ">
-                        <a href="" class="text-decoration-none text-dark"><i class="fa-solid fa-bomb"></i></a>
-                        <p class="m-0">EXCLUSIVITÉS</p>
-                    </div>
-
                 </div>
             </div>
-        </div>
+        </section>
 
+        <!-- SECTION 3 - CARDS & CAROUSEL -->
         <section>
             <div class="container">
-
                 <div class="row bg-white">
-                    <div class="offset-1 col-7 p-0">
+                    <div class="offset-1 col-9 col-lg-7 p-0">
                         <div class="px-3 d-flex justify-content-between align-items-center">
-                            <p class="py-3 m-0 fw-bold btn-MenuCarousel  ">NOUVEAUX ET A VENIR</p>
-                            <p class="py-3 m-0 btnCard">NINTENDO SWITCH — MODÈLE OLED</p>
-                            <p class="py-3 m-0 btnCard">NOS FAVORIS</p>
+                            <a href="" class="text-decoration-none text-dark">
+                                <p class="py-3 m-0 btn-MenuCarousel  ">NOUVEAUX ET A VENIR</p>
+                            </a>
+                            <a href="" class="text-decoration-none text-dark">
+                                <p class="py-3 m-0 btn-MenuCarousel">NINTENDO SWITCH — MODÈLE OLED</p>
+                            </a>
+                            <a href="" class="text-decoration-none text-dark">
+                                <p class="py-3 m-0 btn-MenuCarousel">NOS FAVORIS</p>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-4 text-end">
+                    <div class="col-2 col-lg-4 text-end">
                         <button class="btn" data-bs-target="#carousel4cards" data-bs-slide="prev">
                             <i class="bi bi-arrow-left-circle h3"></i>
                             <span class="visually-hidden">Previous</span>
@@ -209,110 +222,121 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active ">
                                     <div class="row">
-                                        <div class="col-3 ">
-                                            <div class="card h-100" style=" width: 18rem;">
-                                                <img src="img/card1.PNG" class="card-img-top"
-                                                    alt="Mario vs Donkey Kong">
-                                                <div class="card-body p-0">
-                                                    <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
-                                                    <p class="card-text fw-bold mb-5 px-3">Mario vs. Donkey Kong</p>
+                                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-2">
+                                            <div class="card h-100 w-100" style=" width: 18rem;">
+                                                <a href="" class="text-decoration-none text-dark">
+                                                    <img src="img/card1.PNG" class="card-img-top"
+                                                        alt="Mario vs Donkey Kong">
+                                                    <div class="card-body p-0">
+                                                        <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
+                                                        <p class="card-text fw-bold mb-5 px-3">Mario vs. Donkey Kong</p>
 
-                                                </div>
-                                                <div
-                                                    class="card-footer h-100 bg-white border-top p-2 d-flex justify-content-between align-items-center">
-                                                    <p class="m-0 fw-bold d-flex justify-content-center ">
-                                                        49,99€ (TVA incl.)</p>
-                                                    <div class="w-75 d-flex justify-content-center"><a href="#"
-                                                            class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
-                                                            le
-                                                            produit</a></div>
-                                                    <div class=" d-flex justify-content-center">
-                                                        <a href="#"
-                                                            class="border rounded-circle text-dark text-center p-2  "><i
-                                                                class="bi bi-heart "></i></a>
                                                     </div>
-                                                </div>
+                                                    <div
+                                                        class="card-footer h-100 bg-white border-top p-2 d-flex flex-wrap flex-xxl-nowrap justify-content-between align-items-center">
+                                                        <p class="m-0 fw-bold d-flex justify-content-center ">
+                                                            49,99€ (TVA incl.)</p>
+                                                        <div class="w-75 d-flex justify-content-center"><a href="#"
+                                                                class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
+                                                                le
+                                                                produit</a></div>
+                                                        <div class=" d-flex justify-content-center">
+                                                            <a href="#"
+                                                                class="border rounded-circle text-dark text-center p-2  "><i
+                                                                    class="bi bi-heart "></i></a>
+                                                        </div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
-                                        <div class="col-3  ">
-                                            <div class="card h-100" style=" width: 18rem;">
-                                                <img src="img/card2.PNG" class="card-img-top"
-                                                    alt="Mario vs Donkey Kong">
-                                                <div class="card-body p-0">
-                                                    <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
-                                                    <p class="card-text fw-bold mb-5 px-3">Another Code: Recollection
-                                                    </p>
-                                                </div>
-
-                                                <div
-                                                    class="card-footer h-100 bg-white border-top p-2 d-flex justify-content-between align-items-center">
-                                                    <p class="m-0 fw-bold d-flex justify-content-center ">
-                                                        59,99€ (TVA incl.)</p>
-                                                    <div class="w-75 d-flex justify-content-center"><a href="#"
-                                                            class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
-                                                            le
-                                                            produit</a></div>
-                                                    <div class=" d-flex justify-content-center">
-                                                        <a href="#"
-                                                            class="border rounded-circle text-dark text-center p-2  "><i
-                                                                class="bi bi-heart "></i></a>
+                                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-2 ">
+                                            <div class="card h-100 w-100" style=" width: 18rem;">
+                                                <a href="" class="text-decoration-none text-dark">
+                                                    <img src="img/card2.PNG" class="card-img-top"
+                                                        alt="Mario vs Donkey Kong">
+                                                    <div class="card-body p-0">
+                                                        <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
+                                                        <p class="card-text fw-bold mb-5 px-3">Another Code:
+                                                            Recollection
+                                                        </p>
                                                     </div>
-                                                </div>
 
-                                            </div>
-
-                                        </div>
-                                        <div class="col-3 ">
-
-                                            <div class="card h-100" style=" width: 18rem;">
-                                                <img src="img/card3.PNG" class="card-img-top"
-                                                    alt="Mario vs Donkey Kong">
-                                                <div class="card-body p-0">
-                                                    <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
-                                                    <p class="card-text fw-bold mb-5 px-3">Princess Peach: Showtime!</p>
-                                                </div>
-
-                                                <div
-                                                    class="card-footer h-100 bg-white border-top px-2 py-1 d-flex justify-content-between align-items-center">
-                                                    <p class="m-0 fw-bold d-flex justify-content-center ">
-                                                        59,99€ (TVA incl.)</p>
-                                                    <div class="w-75 d-flex justify-content-center"><a href="#"
-                                                            class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
-                                                            le
-                                                            produit</a></div>
-                                                    <div class=" d-flex justify-content-center">
-                                                        <a href="#"
-                                                            class="border rounded-circle text-dark text-center p-2  "><i
-                                                                class="bi bi-heart "></i></a>
+                                                    <div
+                                                        class="card-footer h-100 bg-white border-top p-2 d-flex flex-wrap flex-xxl-nowrap justify-content-between align-items-center">
+                                                        <p class="m-0 fw-bold d-flex justify-content-center ">
+                                                            59,99€ (TVA incl.)</p>
+                                                        <div class="w-75 d-flex justify-content-center"><a href="#"
+                                                                class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
+                                                                le
+                                                                produit</a></div>
+                                                        <div class=" d-flex justify-content-center">
+                                                            <a href="#"
+                                                                class="border rounded-circle text-dark text-center p-2  "><i
+                                                                    class="bi bi-heart "></i></a>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                </a>
+
                                             </div>
 
                                         </div>
-                                        <div class="col-3 ">
+                                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-2">
 
-                                            <div class="card h-100" style=" width: 18rem;">
-                                                <img src="img/card4.PNG" class="card-img-top"
-                                                    alt="Mario vs Donkey Kong">
-                                                <div class="card-body p-0">
-                                                    <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
-                                                    <p class="card-text fw-bold mb-5 px-3">Super Mario Bros. Wonder</p>
-
-                                                </div>
-                                                <div
-                                                    class="card-footer h-100 bg-white border-top p-2 d-flex justify-content-between align-items-center">
-                                                    <p class="m-0 fw-bold d-flex justify-content-center ">
-                                                        59,99€ (TVA incl.)</p>
-                                                    <div class="w-75 d-flex justify-content-center"><a href="#"
-                                                            class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
-                                                            le
-                                                            produit</a></div>
-                                                    <div class=" d-flex justify-content-center">
-                                                        <a href="#"
-                                                            class="border rounded-circle text-dark text-center p-2  "><i
-                                                                class="bi bi-heart "></i></a>
+                                            <div class="card h-100 w-100" style=" width: 18rem;">
+                                                <a href="" class="text-decoration-none text-dark">
+                                                    <img src="img/card3.PNG" class="card-img-top"
+                                                        alt="Mario vs Donkey Kong">
+                                                    <div class="card-body p-0">
+                                                        <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
+                                                        <p class="card-text fw-bold mb-5 px-3">Princess Peach: Showtime!
+                                                        </p>
                                                     </div>
-                                                </div>
+
+                                                    <div
+                                                        class="card-footer h-100 bg-white border-top px-2 py-1 d-flex flex-wrap flex-xxl-nowrap justify-content-between align-items-center">
+                                                        <p class="m-0 fw-bold d-flex justify-content-center ">
+                                                            59,99€ (TVA incl.)</p>
+                                                        <div class="w-75 d-flex justify-content-center"><a href="#"
+                                                                class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
+                                                                le
+                                                                produit</a></div>
+                                                        <div class=" d-flex justify-content-center">
+                                                            <a href="#"
+                                                                class="border rounded-circle text-dark text-center p-2  "><i
+                                                                    class="bi bi-heart "></i></a>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-2">
+
+                                            <div class="card h-100 w-100" style=" width: 18rem;">
+                                                <a href="" class="text-decoration-none text-dark">
+                                                    <img src="img/card4.PNG" class="card-img-top"
+                                                        alt="Mario vs Donkey Kong">
+                                                    <div class="card-body p-0">
+                                                        <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
+                                                        <p class="card-text fw-bold mb-5 px-3">Super Mario Bros. Wonder
+                                                        </p>
+
+                                                    </div>
+                                                    <div
+                                                        class="card-footer h-100 bg-white border-top p-2 d-flex flex-wrap flex-xxl-nowrap justify-content-between align-items-center">
+                                                        <p class="m-0 fw-bold d-flex justify-content-center ">
+                                                            59,99€ (TVA incl.)</p>
+                                                        <div class="w-75 d-flex justify-content-center"><a href="#"
+                                                                class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
+                                                                le
+                                                                produit</a></div>
+                                                        <div class=" d-flex justify-content-center">
+                                                            <a href="#"
+                                                                class="border rounded-circle text-dark text-center p-2  "><i
+                                                                    class="bi bi-heart "></i></a>
+                                                        </div>
+                                                    </div>
+                                                </a>
                                             </div>
 
                                         </div>
@@ -322,147 +346,414 @@
 
                                 <div class="carousel-item">
                                     <div class="row">
-                                        <div class="col-3 ">
-                                            <div class="card h-100" style=" width: 18rem;">
-                                                <img src="img/card5.PNG" class="card-img-top w-100"
-                                                    alt="Mario vs Donkey Kong">
-                                                <div class="card-body  p-0">
-                                                    <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
-                                                    <p class="card-text  fw-bold mb-5 px-3">Set Mario Kart 8 Deluxe
-                                                        -
-                                                        Pass circuits additionels</p>
+                                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-2 ">
+                                            <div class="card h-100 w-100" style=" width: 18rem;">
+                                                <a href="" class="text-decoration-none text-dark">
+                                                    <img src="img/card5.PNG" class="card-img-top w-100"
+                                                        alt="Mario vs Donkey Kong">
+                                                    <div class="card-body  p-0">
+                                                        <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
+                                                        <p class="card-text  fw-bold mb-5 px-3">Set Mario Kart 8 Deluxe
+                                                            -
+                                                            Pass circuits additionels</p>
 
-                                                </div>
-                                                <div
-                                                    class="card-footer  bg-white border-top p-2 d-flex justify-content-between align-items-center">
-                                                    <p class="m-0 fw-bold d-flex justify-content-center ">
-                                                        49,99€ (TVA incl.)</p>
-                                                    <div class="w-75 d-flex justify-content-center"><a href="#"
-                                                            class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
-                                                            le
-                                                            produit</a></div>
-                                                    <div class=" d-flex justify-content-center">
-                                                        <a href="#"
-                                                            class="border rounded-circle text-dark text-center p-2  "><i
-                                                                class="bi bi-heart "></i></a>
                                                     </div>
-                                                </div>
+                                                    <div
+                                                        class="card-footer  bg-white border-top p-2 d-flex  flex-wrap flex-xxl-nowrap justify-content-between align-items-center">
+                                                        <p class="m-0 fw-bold d-flex justify-content-center ">
+                                                            49,99€ (TVA incl.)</p>
+                                                        <div class="w-75 d-flex justify-content-center"><a href="#"
+                                                                class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
+                                                                le
+                                                                produit</a></div>
+                                                        <div class=" d-flex justify-content-center">
+                                                            <a href="#"
+                                                                class="border rounded-circle text-dark text-center p-2  "><i
+                                                                    class="bi bi-heart "></i></a>
+                                                        </div>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
-                                        <div class="col-3  ">
-                                            <div class="card h-100" style=" width: 18rem;">
-                                                <img src="img/card6.PNG" class="card-img-top"
-                                                    alt="Mario vs Donkey Kong">
-                                                <div class="card-body  p-0">
-                                                    <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
-                                                    <p class="card-text  fw-bold mb-5 px-3">Splatoon 3
-                                                    </p>
-                                                </div>
-
-                                                <div
-                                                    class="card-footer bg-white border-top p-2 d-flex justify-content-between align-items-center">
-                                                    <p class="m-0 fw-bold d-flex justify-content-center ">
-                                                        59,99€ (TVA incl.)</p>
-                                                    <div class="w-75 d-flex justify-content-center"><a href="#"
-                                                            class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
-                                                            le
-                                                            produit</a></div>
-                                                    <div class=" d-flex justify-content-center">
-                                                        <a href="#"
-                                                            class="border rounded-circle text-dark text-center p-2  "><i
-                                                                class="bi bi-heart "></i></a>
+                                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-2  ">
+                                            <div class="card h-100 w-100" style=" width: 18rem;">
+                                                <a href="" class="text-decoration-none text-dark">
+                                                    <img src="img/card6.PNG" class="card-img-top"
+                                                        alt="Mario vs Donkey Kong">
+                                                    <div class="card-body  p-0">
+                                                        <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
+                                                        <p class="card-text  fw-bold mb-5 px-3">Splatoon 3
+                                                        </p>
                                                     </div>
-                                                </div>
 
-                                            </div>
-
-                                        </div>
-                                        <div class="col-3 ">
-
-                                            <div class="card h-100" style=" width: 18rem;">
-                                                <img src="img/card7.PNG" class="card-img-top "
-                                                    alt="Mario vs Donkey Kong">
-                                                <div class="card-body p-0">
-                                                    <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
-                                                    <p class="card-text fw-bold mb-5 px-3">Nintendo Switch - Modèle OLED
-                                                        édition Mario (rouge)</p>
-                                                </div>
-
-                                                <div
-                                                    class="card-footer h-100 bg-white border-top px-2 py-1 d-flex justify-content-between align-items-center">
-                                                    <p class="m-0 fw-bold d-flex justify-content-center ">
-                                                        349,99€ (TVA incl.)</p>
-                                                    <div class="w-75 d-flex justify-content-center"><a href="#"
-                                                            class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
-                                                            le
-                                                            produit</a></div>
-                                                    <div class=" d-flex justify-content-center">
-                                                        <a href="#"
-                                                            class="border rounded-circle text-dark text-center p-2  "><i
-                                                                class="bi bi-heart "></i></a>
+                                                    <div
+                                                        class="card-footer bg-white border-top p-2 d-flex flex-wrap flex-xxl-nowrap justify-content-between align-items-center">
+                                                        <p class="m-0 fw-bold d-flex justify-content-center ">
+                                                            59,99€ (TVA incl.)</p>
+                                                        <div class="w-75 d-flex justify-content-center"><a href="#"
+                                                                class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
+                                                                le
+                                                                produit</a></div>
+                                                        <div class=" d-flex justify-content-center">
+                                                            <a href="#"
+                                                                class="border rounded-circle text-dark text-center p-2  "><i
+                                                                    class="bi bi-heart "></i></a>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                </a>
                                             </div>
 
                                         </div>
-                                        <div class="col-3 ">
+                                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-2 ">
 
-                                            <div class="card h-100" style=" width: 18rem;">
-                                                <img src="img/card8.PNG" class="card-img-top"
-                                                    alt="Mario vs Donkey Kong">
-                                                <div class="card-body p-0">
-                                                    <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
-                                                    <p class="card-text fw-bold mb-5 px-3">Fashion Dreamer</p>
-
-                                                </div>
-                                                <div
-                                                    class="card-footer bg-white border-top p-2 d-flex justify-content-between align-items-center">
-                                                    <p class="m-0 fw-bold d-flex justify-content-center ">
-                                                        49,99€ (TVA incl.)</p>
-                                                    <div class="w-75 d-flex justify-content-center"><a href="#"
-                                                            class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
-                                                            le
-                                                            produit</a></div>
-                                                    <div class=" d-flex justify-content-center">
-                                                        <a href="#"
-                                                            class="border rounded-circle text-dark text-center p-2  "><i
-                                                                class="bi bi-heart "></i></a>
+                                            <div class="card h-100 w-100" style=" width: 18rem;">
+                                                <a href="" class="text-decoration-none text-dark">
+                                                    <img src="img/card7.PNG" class="card-img-top "
+                                                        alt="Mario vs Donkey Kong">
+                                                    <div class="card-body p-0">
+                                                        <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
+                                                        <p class="card-text fw-bold mb-5 px-3">Nintendo Switch - Modèle
+                                                            OLED
+                                                            édition Mario (rouge)</p>
                                                     </div>
-                                                </div>
+
+                                                    <div
+                                                        class="card-footer h-100 bg-white border-top px-2 py-1 d-flex flex-wrap flex-xxl-nowrap justify-content-between align-items-center">
+                                                        <p class="m-0 fw-bold d-flex justify-content-center ">
+                                                            349,99€ (TVA incl.)</p>
+                                                        <div class="w-75 d-flex justify-content-center"><a href="#"
+                                                                class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
+                                                                le
+                                                                produit</a></div>
+                                                        <div class=" d-flex justify-content-center">
+                                                            <a href="#"
+                                                                class="border rounded-circle text-dark text-center p-2  "><i
+                                                                    class="bi bi-heart "></i></a>
+                                                        </div>
+                                                    </div>
+                                                </a>
                                             </div>
 
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-2 ">
+
+                                            <div class="card h-100 w-100" style=" width: 18rem;">
+                                                <a href="" class="text-decoration-none text-dark">
+                                                    <img src="img/card8.PNG" class="card-img-top"
+                                                        alt="Mario vs Donkey Kong">
+                                                    <div class="card-body p-0">
+                                                        <p class="card-title fs-6 px-3">NINTENDO SWITCH</p>
+                                                        <p class="card-text fw-bold mb-5 px-3">Fashion Dreamer</p>
+
+                                                    </div>
+                                                    <div
+                                                        class="card-footer bg-white border-top p-2 d-flex flex-wrap flex-xxl-nowrap justify-content-between align-items-center">
+                                                        <p class="m-0 fw-bold d-flex justify-content-center ">
+                                                            49,99€ (TVA incl.)</p>
+                                                        <div class="w-75 d-flex justify-content-center"><a href="#"
+                                                                class="btn btn-card px-2 py-1 bg-white rounded-4 fw-bold ">Voir
+                                                                le
+                                                                produit</a></div>
+                                                        <div class=" d-flex justify-content-center">
+                                                            <a href="#"
+                                                                class="border rounded-circle text-dark text-center p-2  "><i
+                                                                    class="bi bi-heart "></i></a>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
-
-
-
                                 </div>
-
                             </div>
 
                         </div>
                     </div>
-
                 </div>
-
-
             </div>
 
         </section>
 
-        <section>
+        <!-- SECTION 4 - DECOUVERTE SWITCH -->
+        <section class="mt-5 ">
+            <div class="container p-0">
+                <div class="w-100 position-relative" id="playersSwitch">
+                    <div class="position-relative">
+                        <img src="img/nintendo-switch-modeles-oled.jpg" alt="joueurs Switch" class="p-0 m-0 w-100">
+                        <button
+                            class="btn btn-primary position-absolute top-35 start-50 translate-middle rounded-5 px-1 px-md-4 py-2">DÉCOUVREZ
+                            LA
+                            NINTENDO
+                            SIWTCH</button>
+                    </div>
+                    <div class="row gx-0 position-relative w-100 mt-5 p-5 p-md-4" style="top: -170px;">
+                        <div class="col-12 col-md-4 ">
+                            <div
+                                class="border border-end-0 bg-white h-100 p-4 rounded-start-4 d-flex flex-column justify-content-between align-items-center">
+                                <div class="h-50 d-flex justify-content-center"><img src="/img/switch_1.PNG"
+                                        class="card-img-top" alt="Switch Oled">
+                                </div>
+                                <div class="h-25">
+                                    <h5 class="fs-5">Nintendo Switch - Modèle OLED</h5>
+                                    <p class="text-center">A partir de 349,99 €</p>
+                                </div>
+                                <div class="h-25 d-flex flex-column justify-content-between align-items-center">
+                                    <div><a href="#" class="btn btn-primary rounded-5 py-2 px-4 fw-bold">ACHETER UNE
+                                            CONSOLE</a>
+                                    </div>
+                                    <div><a href="#" class="btn btn-light rounded-5 py-2 px-4 fw-bold">CRÉER UN PACK</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 ">
+                            <div
+                                class="border border-end-0 bg-white  h-100  p-4 d-flex flex-column justify-content-between align-items-center">
+                                <div class="h-50 d-flex justify-content-center"><img src="/img/switch_2.PNG"
+                                        class="card-img-top" alt="Switch Oled"></div>
+                                <div class="h-25">
+                                    <h5 class="fs-5">Nintendo Switch</h5>
+                                    <p class="text-center">A partir de 299,99 €</p>
+                                </div>
+                                <div class="h-25 d-flex flex-column justify-content-between align-items-center">
+                                    <div><a href="#" class="btn btn-primary rounded-5 py-2 px-4 fw-bold">ACHETER UNE
+                                            CONSOLE</a>
+                                    </div>
+                                    <div><a href="#" class="btn btn-light rounded-5 py-2 px-4 fw-bold">CRÉER UN PACK</a>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
+                        <div class="col-12 col-md-4 ">
+                            <div
+                                class="border bg-white p-4  h-100 rounded-end-4 d-flex flex-column justify-content-between align-items-center">
+                                <div class="h-50 d-flex justify-content-center"><img src="/img/switch_3.PNG"
+                                        class="card-img-top" alt="Switch Oled"></div>
+                                <div class="h-25">
+                                    <h5 class="fs-5">Nintendo Switch Lite</h5>
+                                    <p class="text-center">A partir de 219,99 €</p>
+                                </div>
+                                <div class="h-25 d-flex flex-column justify-content-between align-items-center">
+                                    <div><a href="#" class="btn btn-primary rounded-5 py-2 px-4 fw-bold">ACHETER UNE
+                                            CONSOLE</a>
+                                    </div>
+                                    <div><a href="#" class="btn btn-light rounded-5 py-2 px-4 fw-bold">CRÉER UN PACK</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section>
-
-        </section>
-
-        <section>
-
+        <!-- SECTION 5 - MARIO -->
+        <section style="margin-top:-170px">
+            <div class="container mt-4">
+                <div class="bg-primary pt-5 mx-2 rounded-4">
+                    <div class="row align-items-end px-5">
+                        <div class="offset-1 col-5 ">
+                            <div class="h-100 text-light d-flex flex-column  align-items-start ">
+                                <div><img src="img/logo_nintendo.JPG" alt=""></div>
+                                <p class="fs-1 fw-bold">Commencez à utiliser My Nintendo !</p>
+                                <p class=" fs-6 fw-bold">Facile, amusant, gratifiant !</p>
+                                <button class="btn btn-primary border border-2 rounded-5 fw-bold mb-5">En savoir
+                                    plus</button>
+                            </div>
+                        </div>
+                        <div class="col-5 ">
+                            <div class=" align-items-end">
+                                <div><img class="w-100" src="img/mario.png" alt="image mario"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
+
+    <footer class="mt-5 ">
+        <div class="bg-white border">
+            <div class="container">
+                <div class="row py-2 ">
+                    <div class="col-12">
+                        <select class="form-select w-25 fw-bold" aria-label="Default select example">
+                            <option class="fw-bold" selected>France €</option>
+                            <option class="fw-bold" value="1">Plus d'options</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="bg-white border-bottom">
+            <div class="navbar navbar-expand-md">
+                <div class="container">
+                    <!-- <div class="d-flex  flex-column justify-content-center w-100 d-md-none">
+                        <button class="navbar-toggler dropdown-toggle border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#liste1" aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span>ARTICLES</span>
+                        </button>
+                        <button class="navbar-toggler dropdown-toggle border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#liste2" aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span>FRANCHISES</span>
+                        </button>
+                        <button class="navbar-toggler dropdown-toggle border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#liste3" aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span>ASSISTANCE</span>
+                        </button>
+                        <button class="navbar-toggler dropdown-toggle border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#liste4" aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span>A PROPOS</span>
+                        </button>
+                    </div> -->
+                    <div class="row">
+
+                        <div class="col-12 col-md-3">
+                            <button class="navbar-toggler dropdown-toggle border-0" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#liste1"
+                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span>ARTICLES</span>
+                            </button>
+                            <div class="collapse navbar-collapse flex-column" id="liste1">
+
+
+                                <div class="list-group list-group-flush">
+
+                                    <button type="button"
+                                        class=" d-none d-md-block list-group-item list-group-item-action border-0 mb-2"
+                                        disabled aria-current="true">
+                                        ARTICLES
+                                    </button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5 fw-medium fs-6">Créer
+                                        votre propre pack Nintendo Switch</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">Consoles
+                                        Nintendo Switch</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">A
+                                        Jeux Nintendo Switch</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">A
+                                        Dernières sorties</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">Récompenses
+                                        My Nintendo</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">A
+                                        DExclusivités My Nintendo Store</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button class="navbar-toggler dropdown-toggle border-0" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#liste2"
+                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span>FRANCHISES</span>
+                            </button>
+                            <div class="collapse navbar-collapse flex-column" id="liste2">
+                                <div class="list-group list-group-flush ">
+                                    <button type="button"
+                                        class=" d-none d-md-block list-group-item list-group-item-action border-0 mb-2"
+                                        disabled aria-current="true">
+                                        FRANCHISES
+                                    </button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5 fw-medium fs-6">Super
+                                        Mario</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">Pokémon</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">The
+                                        Legend
+                                        of Zelda</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">Animal
+                                        Crossing</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">Splatoon</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">Mario
+                                        Kart</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">Monster
+                                        Hunter</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button class="navbar-toggler dropdown-toggle border-0" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#liste3"
+                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span>ASSISTANCE</span>
+                            </button>
+                            <div class="collapse navbar-collapse flex-column" id="liste3">
+                                <div class="list-group list-group-flush ">
+                                    <button type="button"
+                                        class="d-none d-md-block list-group-item list-group-item-action border-0 mb-2"
+                                        disabled aria-current="true">
+                                        ASSISTANCE
+                                    </button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5 fw-medium fs-6">Aide
+                                        et
+                                        FAQ</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">Fiche
+                                        produit relative aux qualités et caractéristiques environnementales</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button class="navbar-toggler dropdown-toggle border-0" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#liste4"
+                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span>A PROPOS</span>
+                            </button>
+                            <div class="collapse navbar-collapse flex-column" id="liste4">
+                                <div class="list-group list-group-flush ">
+                                    <button type="button"
+                                        class=" d-none d-md-block list-group-item list-group-item-action border-0 mb-2"
+                                        disabled aria-current="true">
+                                        A PROPOS
+                                    </button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5 fw-medium fs-6">Aide
+                                        et
+                                        My Nintendo Store</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">My
+                                        Nintendo</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">Nintendo.fr</button>
+                                    <button type="button"
+                                        class="list-group-item list-group-item-action border-0 rounded-5  fw-medium fs-6">Carrières</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white border-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5"></div>
+                    <div class="col-4"></div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+        </div>
 
     </footer>
 
