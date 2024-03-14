@@ -1,9 +1,10 @@
 //Custom variables :
 @import "variables_overrides.scss";
 
+
 //Utilities custom : 
 @import "utilities_custom.scss";
 
 
-// Alléger les imports :
+// import all bootstrap scss :
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

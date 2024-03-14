@@ -1,1 +1,3 @@
 https://store.nintendo.fr/fr
+
+a faire : finaliser barre de nav (manque une ligne) + code js pour la faire disparaite quand on scroll
